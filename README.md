@@ -1,5 +1,6 @@
 # 2019nCoV
 
+Updated: Jan-31-2019\
 Jan-30-2019\
 @sungml92 // sl74@rice.edu\
 \
@@ -13,10 +14,10 @@ Of 50 submissions, 49 are betaCov 2019-2020 genome and one genome is suspected c
 Maximum likelihood (ML) phylogenetic tree was estimated wih RaxML v8.2.8 \[1\] and Maximum Clade Credibility (MCC) tree was estimated with BEAST v1.10.4 \[2\]. Both trees are visualized with ggtree package in R. A Wuhan sequence isolated on 12/24/2019 was used as an outgroup in ML tree for tree visualization.
 
 ###### ML tree
-<img src="tree/annotated_2019nCoV_013020.png" width = 300>
+<img src="tree/2019-nCov_013120.png" width = 300>
 
 ###### MCC tree
-<img src="tree/2019nCov_013020_hkyr4_cons.png" width = 300>
+<img src="tree/2019-nCov_013120_hkyr4_cons.png" width = 300>
 
 
 
