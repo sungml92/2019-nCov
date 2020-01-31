@@ -30,7 +30,7 @@ BEASTv.1.10.4 software was used to calculate a estimated date of the most recent
 | Constant Size Coalescent Model  | 2019.602 \[2019.279-2019.848\]  |
 | without EPI_ISL_406592  | 2019.881 \[2019.78-2019.958\]  |
 
-95% HPD of tMRCA estimation is broad, possibly due to inclusion of EPI_ISL_406592 genome. It is uncertain that the genome has sequencing errors, and therefore, the isolate is included in the anaylsis. Review will be made on this paragraph. 
+95% HPD of tMRCA estimation is broad, possibly due to inclusion of EPI_ISL_406592 genome. It is uncertain whether the genome has sequencing errors.
 
 ### Sequence variation
 (add sequence variation)
