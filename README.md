@@ -6,7 +6,7 @@ Jan-30-2019\
 \
 Preliminary Phylogenetic and evolutionary analysis of 2019 nCoV genomes.\
 \
-Phylogenetic analysis with publicy shared 2019nCoV genomes from GISAID epiflu database. As of Jan-30-2019, there are 52 betaCov 2019-2020 submissions on GISAID.
+Phylogenetic analysis with publicy shared 2019nCoV genomes from GISAID epiflu database. As of Jan-31-2019, there are 52 betaCov 2019-2020 submissions on GISAID.
 
 ### Phylogenetic analysis
 Of 52 submissions, 51 are betaCov 2019-2020 genome and one genome is suspected common ancestor for the novel coronavirus. We reports preliminary findings for 48 betaCov 2019-2020 genome (removed, 1: partial genome, and 2: missing accurate isolation date).
