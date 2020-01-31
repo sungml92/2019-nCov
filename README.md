@@ -1,6 +1,6 @@
 # 2019nCoV
 
-Updated: Jan-31-2019\
+Updated: Jan-31-2019 | added Australian and German genome\
 Jan-30-2019\
 @sungml92 // sl74@rice.edu\
 \
@@ -23,12 +23,14 @@ Maximum likelihood (ML) phylogenetic tree was estimated wih RaxML v8.2.8 \[1\] a
 
 ### Divergence timing
 
-BEASTv.1.10.4 software was used to calculate a estimated date of the most recent common ancestor. We considered two coalescent model: 1) constant size and 2) exponential growth.
+BEASTv.1.10.4 software was used to calculate a estimated date of the most recent common ancestor. We considered constant size coalescent model.
 
 |   | tMRCA \[95% HPD\] |
 | ------------- | ------------- |
-| Constant Size Coalescent Model  | 2019.551 \[2019.158-2019.849\]  |
-| Exponential Growth Coalescent Model  | 2019.547 \[2019.155-2019.846\]  |
+| Constant Size Coalescent Model  | 2019.602 \[2019.279-2019.848\]  |
+| without EPI_ISL_406592  | 2019.881 \[2019.78-2019.958\]  |
+
+95% HPD of tMRCA estimation is broad, possibly due to inclusion of EPI_ISL_406592 genome. It is uncertain that the genome has sequencing errors, and therefore, the isolate is included in the anaylsis. Review will be made on this paragraph. 
 
 ### Sequence variation
 (add sequence variation)
@@ -37,18 +39,17 @@ BEASTv.1.10.4 software was used to calculate a estimated date of the most recent
 
 MEME \[3\] was run to identify any sites under episodic positive selection within sample population. No signals, but signals in orf1ab, orf3a, S, and orf7a, and N after adding outgroup Yunnan bat virus.
 
-The evolutionary rate of the virus from 46 full genomes.
+The evolutionary rate of the virus from 48 full genomes.
 
 |   | mean rate year<sup>-1</sup> nucleotide<sup>-1</sup> \[95% HPD\] |
 | ------------- | ------------- |
-| Constant Size Coalescent Model  | 1.22E<sup>-3</sup> \[0.489E<sup>-3</sup> - 2.01E<sup>-3</sup>\]  |
-| Exponential Growth Coalescent Model  | 1.2E<sup>-3</sup> \[0.472E<sup>-3</sup>-2.01E<sup>-3</sup>\]  |
+| Constant Size Coalescent Model  | 1.35E<sup>-3</sup> \[0.606E<sup>-3</sup> - 2.2E<sup>-3</sup>\]  |
 
 ### Note
 
 As pointed out by \[4\], tMRCA and mean rate is an estimate for sampled population that only span about an year. Especially for tMRCA, only its range can be used as a guide to estimate common sampled ancestor. 
 
-### Sampling location of 46 nCoV genomes
+### Sampling location of 48 nCoV genomes
 
 | Location | Count |
 | ------------- | ------------- |
@@ -65,7 +66,9 @@ As pointed out by \[4\], tMRCA and mean rate is an estimate for sampled populati
 | Illinois  | 1  |
 | Taiwan  | 1 |
 | Washington  | 1 |
-| Total | 47 |
+| Germany  | 1 |
+| Australia  | 1 |
+| Total | 48 |
 
 ### Reference
 1. Stamatakis, A. (2014). RAxML version 8: A tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics (Oxford, England), 30(9), 1312–1313. https://doi.org/10.1093/bioinformatics/btu033
