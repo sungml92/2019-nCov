@@ -4,6 +4,7 @@ library(ggtree)
 library(treeio)
 library(treedater)
 library(lubridate)
+library(ggthemes)
 
 # Maximum likelihood phylogenetic tree visualization with ggtree
 
@@ -63,3 +64,23 @@ td <- dater(tre, sts=sts, abstol = 1e-04, searchRoot = 100, s=29910, clock='stri
 fit = rootToTipRegressionPlot(td)
 
 summary(fit)
+
+# Root-to-tip regression: data from Tempest
+
+folder = "../../"
+tempfile = "tree/2019nCoV_013120_tempest_data.txt"
+df <- read.csv(paste(folder,tempfile,sep=''),sep='\t',na.strings = "")
+
+r2t <- df %>%
+  ggplot(aes(x=date,y=distance,color=location))+
+  geom_point() + theme_minimal()+
+  ylab("root-to-tip divergence") + xlab("time") + 
+  stat_smooth(method = "lm", se = FALSE, fullrange=TRUE,alpha=0.5,color="#ff726f",size=0.5, show.legend = TRUE) + 
+  scale_x_continuous(limits =c(19.7,20.2)) +
+  scale_y_continuous(limits =c(0,0.0013)) +
+  theme(legend.position = "none", panel.border = element_rect(colour = "black", fill=NA, size=1))
+
+png("2019-nCov_013120_root_to_tip.png",res=100,width=600,height=600)
+print(r2t)
+dev.off()
+
