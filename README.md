@@ -6,18 +6,23 @@ Jan-30-2019\
 \
 Preliminary Phylogenetic and evolutionary analysis of 2019 nCoV genomes.\
 \
-Phylogenetic analysis with publicy shared 2019nCoV genomes from GISAID epiflu database. As of Jan-30-2019, there are 50 betaCov 2019-2020 submissions on GISAID.
+Phylogenetic analysis with publicy shared 2019nCoV genomes from GISAID epiflu database. As of Jan-31-2019, there are 52 betaCov 2019-2020 submissions on GISAID.
 
 ### Phylogenetic analysis
-Of 50 submissions, 49 are betaCov 2019-2020 genome and one genome is suspected common ancestor for the novel coronavirus. We reports preliminary findings for 46 betaCov 2019-2020 genome (removed, 1: partial genome, and 2: missing accurate isolation date).
+Of 52 submissions, 51 are betaCov 2019-2020 genome and one genome is suspected common ancestor for the novel coronavirus. We reports preliminary findings for 48 betaCov 2019-2020 genome (removed, 1: partial genome, and 2: missing accurate isolation date).
 
 Maximum likelihood (ML) phylogenetic tree was estimated wih RaxML v8.2.8 \[1\] and Maximum Clade Credibility (MCC) tree was estimated with BEAST v1.10.4 \[2\]. Both trees are visualized with ggtree package in R. A Wuhan sequence isolated on 12/24/2019 was used as an outgroup in ML tree for tree visualization.
 
-###### ML tree
-<img src="tree/2019-nCoV_013120.png" width = 300>
 
-###### MCC tree
-<img src="tree/2019-nCov_013120_hkyr4_cons.png" width = 300>
+ML tree            |  MCC tree
+:-------------------------:|:-------------------------:
+<img src="tree/2019-nCoV_013120.png" width = 300>  |  <img src="tree/2019-nCov_013120_hkyr4_cons.png" width = 300>
+
+
+
+
+
+
 
 
 
@@ -30,7 +35,7 @@ BEASTv.1.10.4 software was used to calculate a estimated date of the most recent
 | Constant Size Coalescent Model  | 2019.602 \[2019.279-2019.848\]  |
 | without EPI_ISL_406592  | 2019.881 \[2019.78-2019.958\]  |
 
-95% HPD of tMRCA estimation is broad, possibly due to inclusion of EPI_ISL_406592 genome. It is uncertain that the genome has sequencing errors, and therefore, the isolate is included in the anaylsis. Review will be made on this paragraph. 
+95% HPD of tMRCA estimation is broad, possibly due to inclusion of EPI_ISL_406592 genome. It is uncertain whether the genome has sequencing errors.
 
 ### Sequence variation
 (add sequence variation)
