@@ -16,10 +16,12 @@ Maximum likelihood (ML) phylogenetic tree was estimated wih RaxML v8.2.8 \[1\] a
 
 ML tree            |  root-to-tip
 :-------------------------:|:-------------------------:
-<img src="tree/2019-nCoV_013120.png" width = 300>  |  <img src="tree/2019-nCov_013120_root_to_tip.png" width = 300>
+<img src="tree/2019-nCoV_013120_tempest.png" width = 300>  |  <img src="tree/2019-nCov_013120_root_to_tip.png" width = 300>
 
 ###### MCC tree
 <img src="tree/2019-nCov_013120_hkyr4_cons.png" width = 300>
+
+There is a discrepancy between ML tree and MCC tree due to EPI_ISL_406592. Sequencing error? 
 
 ### Divergence timing
 
