@@ -25,14 +25,16 @@ There is a discrepancy between ML tree and MCC tree due to EPI_ISL_406592. Seque
 
 ### Divergence timing
 
-BEASTv.1.10.4 software was used to calculate a estimated date of the most recent common ancestor. We considered constant size coalescent model.
+BEASTv.1.10.4 software was used to calculate a estimated date of the most recent common ancestor. We considered 1) constant size coalescent model and 2) exponential growth coalescent model.
 
 |   | tMRCA \[95% HPD\] |
 | ------------- | ------------- |
 | Constant Size Coalescent Model  | 2019.602 \[2019.279-2019.848\]  |
-| without EPI_ISL_406592  | 2019.881 \[2019.78-2019.958\]  |
+| Exponential Growth Coalescent Model  | 2019.599 \[2019.257-2019.838\]  |
 
-95% HPD of tMRCA estimation is broad, possibly due to inclusion of EPI_ISL_406592 genome. It is uncertain whether the genome has sequencing errors.
+median and 95% HPD of tMRCA estimation is earlier than other reports, possibly due to inclusion of EPI_ISL_406592 genome. It is uncertain whether the genome has sequencing errors.\
+\
+Removing EPI_ISL_406592 yields tMRCA of 2019.883 \[2019.773-2019.961\] with constant size model.
 
 ### Sequence variation
 (add sequence variation)
@@ -46,6 +48,10 @@ The evolutionary rate of the virus from 48 full genomes.
 |   | mean rate year<sup>-1</sup> nucleotide<sup>-1</sup> \[95% HPD\] |
 | ------------- | ------------- |
 | Constant Size Coalescent Model  | 1.35E<sup>-3</sup> \[0.606E<sup>-3</sup> - 2.2E<sup>-3</sup>\]  |
+| Exponential Growth Coalescent Model  | 1.33E<sup>-3</sup> \[0.54E<sup>-3</sup> - 2.13E<sup>-3</sup>\]  |
+
+Removing EPI_ISL_406592 yields evolutionary rate of 1.56E<sup>-3</sup> \[0.747E<sup>-3</sup> - 2.49E<sup>-3</sup>\].\
+Interestingly, evolutionary rate increases upon removal of possile outlier. 
 
 ### Note
 
