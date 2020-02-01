@@ -9,7 +9,7 @@ library(ggthemes)
 # Maximum likelihood phylogenetic tree visualization with ggtree
 
 folder = "../../"
-tfile = "tree/2019nCoV_013120.tre"
+tfile = "tree/2019nCoV_013120_tempest.tre"
 
 tree <- read.tree(paste(folder,tfile,sep=''))
 lfile = "2019-nCoV/metaData/date_location_2019nCoV.txt"
@@ -19,7 +19,7 @@ tip_location <- read.csv(paste(folder,lfile,sep=''),sep='\t',na.strings = "")
 t <- ggtree(tree)# + geom_tiplab(size=3) 
 t <- t %<+% tip_location + geom_tippoint(aes(color=Location), size=4) + theme(legend.position="top")
 t
-png("2019-nCoV_013120.png",res=100,width=600,height=900)
+png("2019-nCoV_013120_tempest.png",res=100,width=600,height=900)
 print(t)
 dev.off()
 
