@@ -51,11 +51,13 @@ The evolutionary rate of the virus from 48 full genomes.
 | Exponential Growth Coalescent Model  | 1.33E<sup>-3</sup> \[0.54E<sup>-3</sup> - 2.13E<sup>-3</sup>\]  |
 
 Removing EPI_ISL_406592 yields evolutionary rate of 1.56E<sup>-3</sup> \[0.747E<sup>-3</sup> - 2.49E<sup>-3</sup>\] with constant size model and 1.51E<sup>-3</sup> \[0.616E<sup>-3</sup> - 2.44E<sup>-3</sup>\] with exponential growth model.\
-Interestingly, evolutionary rate increases upon removal of possile outlier. 
+Interestingly, evolutionary rate increases upon removal of possile outlier.\ 
+\
+Estimated mutation rate of 11 SARS genomes was 0.80–2.38 per site per year \[4; calculated by Method 1\].
 
 ### Note
 
-As pointed out by \[4\], tMRCA and mean rate is an estimate for sampled population that only span about an year. Especially for tMRCA, only its range can be used as a guide to estimate common sampled ancestor. 
+As pointed out by \[5\], tMRCA and mean rate is an estimate for sampled population that only span about an year. Especially for tMRCA, only its range can be used as a guide to estimate common sampled ancestor. 
 
 ### Sampling location of 48 nCoV genomes
 
@@ -85,5 +87,6 @@ As pointed out by \[4\], tMRCA and mean rate is an estimate for sampled populati
 \
 3. Murrell, B., Wertheim, J. O., Moola, S., Weighill, T., Scheffler, K., & Pond, S. L. K. (2012). Detecting Individual Sites Subject to Episodic Diversifying Selection. PLOS Genetics, 8(7), e1002764. https://doi.org/10.1371/journal.pgen.1002764
 \
-4. http://virological.org/t/phylodynamic-analysis-of-ncov-2019-genomes-29-jan-2020/353 
+4. Zhao, Z., Li, H., Wu, X., Zhong, Y., Zhang, K., Zhang, Y.-P., Boerwinkle, E., & Fu, Y.-X. (2004). Moderate mutation rate in the SARS coronavirus genome and its implications. BMC Evolutionary Biology, 4(1), 21. https://doi.org/10.1186/1471-2148-4-21
 \
+5. http://virological.org/t/phylodynamic-analysis-of-ncov-2019-genomes-29-jan-2020/353 
