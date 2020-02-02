@@ -51,7 +51,7 @@ The evolutionary rate of the virus from 48 full genomes.
 | Exponential Growth Coalescent Model  | 1.33E<sup>-3</sup> \[0.54E<sup>-3</sup> - 2.13E<sup>-3</sup>\]  |
 
 Removing EPI_ISL_406592 yields evolutionary rate of 1.56E<sup>-3</sup> \[0.747E<sup>-3</sup> - 2.49E<sup>-3</sup>\] with constant size model and 1.51E<sup>-3</sup> \[0.616E<sup>-3</sup> - 2.44E<sup>-3</sup>\] with exponential growth model.\
-Interestingly, evolutionary rate increases upon removal of possile outlier.\ 
+Interestingly, evolutionary rate increases upon removal of possile outlier.\
 \
 Estimated mutation rate of 11 SARS genomes was 0.80–2.38 per site per year \[4; calculated by Method 1\].
 
