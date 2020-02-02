@@ -34,7 +34,7 @@ BEASTv.1.10.4 software was used to calculate a estimated date of the most recent
 
 median and 95% HPD of tMRCA estimation is earlier than other reports, possibly due to inclusion of EPI_ISL_406592 genome. It is uncertain whether the genome has sequencing errors.\
 \
-Removing EPI_ISL_406592 yields tMRCA of 2019.883 \[2019.773-2019.961\] with constant size model.
+Removing EPI_ISL_406592 yields tMRCA of 2019.883 \[2019.773-2019.961\] with constant size model and tMRCA of 2019.877 \[2019.754-2019.962\] with exponential growth model.
 
 ### Sequence variation
 (add sequence variation)
@@ -50,7 +50,7 @@ The evolutionary rate of the virus from 48 full genomes.
 | Constant Size Coalescent Model  | 1.35E<sup>-3</sup> \[0.606E<sup>-3</sup> - 2.2E<sup>-3</sup>\]  |
 | Exponential Growth Coalescent Model  | 1.33E<sup>-3</sup> \[0.54E<sup>-3</sup> - 2.13E<sup>-3</sup>\]  |
 
-Removing EPI_ISL_406592 yields evolutionary rate of 1.56E<sup>-3</sup> \[0.747E<sup>-3</sup> - 2.49E<sup>-3</sup>\].\
+Removing EPI_ISL_406592 yields evolutionary rate of 1.56E<sup>-3</sup> \[0.747E<sup>-3</sup> - 2.49E<sup>-3</sup>\] with constant size model and 1.51E<sup>-3</sup> \[0.616E<sup>-3</sup> - 2.44E<sup>-3</sup>\] with exponential growth model.\
 Interestingly, evolutionary rate increases upon removal of possile outlier. 
 
 ### Note
