@@ -22,7 +22,7 @@ ML tree            |  root-to-tip
 ###### MCC tree
 <img src="tree/2019-nCov_013120_hkyr4_cons.png" width = 300>
 
-There is a discrepancy between ML tree and MCC tree due to EPI_ISL_406592. Sequencing error? 
+
 
 ### Divergence timing
 
@@ -59,6 +59,8 @@ Estimated mutation rate of 11 SARS genomes was 0.80–2.38 per site per year \[4
 ### Note
 
 As pointed out by \[5\], tMRCA and mean rate is an estimate for sampled population that only span about an year. Especially for tMRCA, only its range can be used as a guide to estimate common sampled ancestor. 
+
+Substantial sequencing error caused the distance EPI_ISL_406592. See discussion on Virological, https://bit.ly/386ZLuI.
 
 ### Sampling location of 48 nCoV genomes
 
