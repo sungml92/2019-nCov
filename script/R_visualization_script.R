@@ -9,7 +9,7 @@ library(ggthemes)
 # Maximum likelihood phylogenetic tree visualization with ggtree
 
 folder = "../../"
-tfile = "tree/2019nCoV_013120_tempest.tre"
+tfile = "tree/RAxML_bestTree_tempest.2019nCoV_020320.tre"
 
 tree <- read.tree(paste(folder,tfile,sep=''))
 lfile = "2019-nCoV/metaData/date_location_2019nCoV.txt"
@@ -19,7 +19,7 @@ tip_location <- read.csv(paste(folder,lfile,sep=''),sep='\t',na.strings = "")
 t <- ggtree(tree)# + geom_tiplab(size=3) 
 t <- t %<+% tip_location + geom_tippoint(aes(color=Location), size=4) + theme(legend.position="top")
 t
-png("2019-nCoV_013120_tempest.png",res=100,width=600,height=900)
+png("2019-nCoV_020320_tempest.png",res=100,width=600,height=900)
 print(t)
 dev.off()
 
@@ -68,19 +68,19 @@ summary(fit)
 # Root-to-tip regression: data from Tempest
 
 folder = "../../"
-tempfile = "tree/2019nCoV_013120_tempest_data.txt"
+tempfile = "tree/2019nCoV_020320_tempest_data.txt"
 df <- read.csv(paste(folder,tempfile,sep=''),sep='\t',na.strings = "")
 
-r2t <- df %>%
+r2t <- df %>% 
   ggplot(aes(x=date,y=distance,color=location))+
   geom_point() + theme_minimal()+
   ylab("root-to-tip divergence") + xlab("time") + 
   stat_smooth(method = "lm", se = FALSE, fullrange=TRUE,alpha=0.5,color="#ff726f",size=0.5, show.legend = TRUE) + 
-  scale_x_continuous(limits =c(19.7,20.2)) +
-  scale_y_continuous(limits =c(0,0.0013)) +
+  scale_x_continuous(limits =c(19.85,20.11)) +
+  scale_y_continuous(limits =c(-0.00000,0.0004)) +
   theme(legend.position = "none", panel.border = element_rect(colour = "black", fill=NA, size=1))
-
-png("2019-nCov_013120_root_to_tip.png",res=100,width=600,height=600)
+r2t
+png("2019-nCov_020320_root_to_tip.png",res=100,width=600,height=600)
 print(r2t)
 dev.off()
 

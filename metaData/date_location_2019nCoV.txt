@@ -49,3 +49,8 @@ BetaCoV/Germany/BavPat1/2020|EPI_ISL_406862	1/28/20	Germany
 BetaCoV/Australia/VIC01/2020|EPI_ISL_406844	1/25/20	Australia
 2019_nCoV/WHU01/2020|MN988668	1/7/20	Wuhan
 2019_nCoV/WHU02/2020|MN988669	1/7/20	Wuhan
+BetaCoV/Zhejiang/Hangzhou-1/2020|EPI_ISL_406970	1/20/20	Zhejiang
+BetaCoV/Singapore/1/2020|EPI_ISL_406973	1/23/20	Singapore
+BetaCoV/England/01/2020|EPI_ISL_407071	1/29/20	England
+BetaCoV/England/02/2020|EPI_ISL_407073	1/29/20	England
+BetaCoV/Finland/1/2020|EPI_ISL_407079	1/29/20	Finland
