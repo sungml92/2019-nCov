@@ -1,22 +1,23 @@
 # 2019nCoV
 
-Updated: Jan-31-2019 | added Australian and German genome\
+Update: Feb-03-2019 | added England, Finland, Singapore, Zhejiang and Genbank genomes\
+old Update: Jan-31-2019 | added Australian and German genome\
 Jan-30-2019\
 @sungml92 // sl74@rice.edu\
 \
 Preliminary Phylogenetic and evolutionary analysis of 2019 nCoV genomes.\
 \
-Phylogenetic analysis with publicy shared 2019nCoV genomes from GISAID epiflu database. As of Jan-31-2019, there are 52 betaCov 2019-2020 submissions on GISAID.
+Phylogenetic analysis with publicy shared 2019nCoV genomes from GISAID epiflu database. As of Jan-31-2019, there are 61 betaCov 2019-2020 submissions on GISAID.
 
 ### Phylogenetic analysis
-Of 52 submissions, 51 are betaCov 2019-2020 genome and one genome is suspected common ancestor for the novel coronavirus. We reports preliminary findings for 48 betaCov 2019-2020 genome (removed, 1: partial genome, and 2: missing accurate isolation date).
+Of 61 submissions, 60 are betaCov 2019-2020 genome and one genome is suspected common ancestor for the novel coronavirus. We reports preliminary findings for 51 betaCov 2019-2020 genome (removed, 3: partial genome, 2: missing accurate isolation date, 4: substantial sequencing error) + including NCBI genomes (or EPI_ISL_406716 and EPI_ISL_406717 in EpiFlu).
 
 Maximum likelihood (ML) phylogenetic tree was estimated wih RaxML v8.2.8 \[1\] and Maximum Clade Credibility (MCC) tree was estimated with BEAST v1.10.4 \[2\]. Both trees are visualized with ggtree package in R. A Wuhan sequence isolated on 12/24/2019 was used as an outgroup in ML tree for tree visualization.
 
 
 ML tree            |  root-to-tip
 :-------------------------:|:-------------------------:
-<img src="tree/2019-nCoV_013120_tempest.png" width = 300>  |  <img src="tree/2019-nCov_013120_root_to_tip.png" width = 300>
+<img src="tree/2019-nCoV_020320_tempest.png" width = 300>  |  <img src="tree/2019-nCov_020320_root_to_tip.png" width = 300>
 
 ###### MCC tree
 <img src="tree/2019-nCov_013120_hkyr4_cons.png" width = 300>
