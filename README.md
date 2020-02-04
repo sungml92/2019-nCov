@@ -56,7 +56,22 @@ The evolutionary rate of the virus from 48 full genomes.
 
 2019-nCoV is closely related to SARS-CoV, BM48-41 bat coronavirus lineage and ZXC21/ZC45 SARS-like bat coronavirus lineage. The novel virus has shown close relationship to Yunnan/RaTG13 bat coronavirus and this virus is suspected to be the nearest bat precursor. 
 
-### S gene similarity 
+<img src="tree/CoV_relationship.png" width = 300> 
+
+### S gene similarity
+
+pblast similarity among 2019nCoV-SARS cluster + MERS. Representative genome was used for 2019-nCoV (Wuhan-Hu-1), SARS (Tor2), and MERS (EMC).
+
+|  | S region | S2 region |
+|  | percentage identity (%) | |
+| ------------- | ------------- | ------------- |
+| RaTG13 precursor  | 97.41  | 99.8 |
+| ZXC21 precursor  | 80.32 | 94.18 |
+| ZC45 precursor  | 81  | 93.78 |
+| SARS  | 75.96 | 88.76 |
+| BM48-31  | 71.66  | 86.87 |
+| MERS  | 35.1 | 42.28 |
+
 
 ### Note
 
