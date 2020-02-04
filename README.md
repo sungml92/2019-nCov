@@ -44,7 +44,7 @@ The evolutionary rate of the virus from 48 full genomes.
 \
 
 ###### estimated mutation rate for other coronaviruses
-| | nucleotide substitution site<sup>-1</sup> year<sup>-1</sup> \[x10<sup>-3</sup>\] | Source
+| | nucleotide substitution site<sup>-1</sup> year<sup>-1</sup> x10<sup>-3</sup> \[95% CI\] | Source
 | ------------- | ------------- | ------------- |
 | SARS | 0.80 - 2.38 | \[4\] |
 | MERS | 1.12 \[0.876 - 1.37\] | \[5\] |
