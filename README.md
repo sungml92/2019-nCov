@@ -62,8 +62,7 @@ The evolutionary rate of the virus from 48 full genomes.
 
 pblast similarity among 2019nCoV-SARS cluster + MERS. Representative genome was used for 2019-nCoV (Wuhan-Hu-1), SARS (Tor2), and MERS (EMC).
 
-|  | S region | S2 region |
-|  | percentage identity (%) | |
+| percentage identity (%) | S region | S2 region |
 | ------------- | ------------- | ------------- |
 | RaTG13 precursor  | 97.41  | 99.8 |
 | ZXC21 precursor  | 80.32 | 94.18 |
