@@ -19,10 +19,6 @@ ML tree            |  root-to-tip
 :-------------------------:|:-------------------------:
 <img src="tree/2019-nCoV_020320_tempest.png" width = 300>  |  <img src="tree/2019-nCov_020320_root_to_tip.png" width = 300>
 
-###### MCC tree
-<img src="tree/2019-nCov_013120_hkyr4_cons.png" width = 300>
-
-
 
 ### Divergence timing
 
@@ -30,15 +26,9 @@ BEASTv.1.10.4 software was used to calculate a estimated date of the most recent
 
 |   | tMRCA \[95% HPD\] |
 | ------------- | ------------- |
-| Constant Size Coalescent Model  | 2019.602 \[2019.279-2019.848\]  |
-| Exponential Growth Coalescent Model  | 2019.599 \[2019.257-2019.838\]  |
+| Constant Size Coalescent Model  | 2019.894 \[2019.812-2019.958\]  |
+| Exponential Growth Coalescent Model  | 2019.NNN \[2019.NNN-2019.NNN\]  |
 
-median and 95% HPD of tMRCA estimation is earlier than other reports, possibly due to inclusion of EPI_ISL_406592 genome. It is uncertain whether the genome has sequencing errors.\
-\
-Removing EPI_ISL_406592 yields tMRCA of 2019.883 \[2019.773-2019.961\] with constant size model and tMRCA of 2019.877 \[2019.754-2019.962\] with exponential growth model.
-
-### Sequence variation
-(add sequence variation)
 
 ### Evolutionary analysis
 
@@ -48,17 +38,25 @@ The evolutionary rate of the virus from 48 full genomes.
 
 |   | mean rate year<sup>-1</sup> nucleotide<sup>-1</sup> \[95% HPD\] |
 | ------------- | ------------- |
-| Constant Size Coalescent Model  | 1.35E<sup>-3</sup> \[0.606E<sup>-3</sup> - 2.2E<sup>-3</sup>\]  |
-| Exponential Growth Coalescent Model  | 1.33E<sup>-3</sup> \[0.54E<sup>-3</sup> - 2.13E<sup>-3</sup>\]  |
+| Constant Size Coalescent Model  | 1.15E<sup>-3</sup> \[0.574E<sup>-3</sup> - 1.79E<sup>-3</sup>\]  |
+| Exponential Growth Coalescent Model  | 1.NNE<sup>-3</sup> \[0.NNE<sup>-3</sup> - N.NNE<sup>-3</sup>\]  |
 
-Removing EPI_ISL_406592 yields evolutionary rate of 1.56E<sup>-3</sup> \[0.747E<sup>-3</sup> - 2.49E<sup>-3</sup>\] with constant size model and 1.51E<sup>-3</sup> \[0.616E<sup>-3</sup> - 2.44E<sup>-3</sup>\] with exponential growth model.\
-Interestingly, evolutionary rate increases upon removal of possile outlier.\
 \
-Estimated mutation rate of 11 SARS genomes was 0.80–2.38 per site per year \[4; calculated by Method 1\].
+
+###### estimated mutation rate for other coronaviruses
+| | nucleotide substitution site<sup>-1</sup> year<sup>-1</sup> \[x10<sup>-3</sup>\] | Source
+| ------------- | ------------- | ------------- |
+| SARS | 0.80 - 2.38 | \[4\] |
+| MERS | 1.12 \[0.876 - 1.37\] | \[5\] |
+
+### Sequence variation
+(add sequence variation)
+
+### S gene similarity 
 
 ### Note
 
-As pointed out by \[5\], tMRCA and mean rate is an estimate for sampled population that only span about an year. Especially for tMRCA, only its range can be used as a guide to estimate common sampled ancestor. 
+As pointed out by \[6\], tMRCA and mean rate is an estimate for sampled population that only span about an year. Especially for tMRCA, only its range can be used as a guide to estimate common sampled ancestor. 
 
 Substantial sequencing error caused the distance EPI_ISL_406592. See discussion on Virological, https://bit.ly/386ZLuI.
 
@@ -92,4 +90,6 @@ Substantial sequencing error caused the distance EPI_ISL_406592. See discussion 
 \
 4. Zhao, Z., Li, H., Wu, X., Zhong, Y., Zhang, K., Zhang, Y.-P., Boerwinkle, E., & Fu, Y.-X. (2004). Moderate mutation rate in the SARS coronavirus genome and its implications. BMC Evolutionary Biology, 4(1), 21. https://doi.org/10.1186/1471-2148-4-21
 \
-5. http://virological.org/t/phylodynamic-analysis-of-ncov-2019-genomes-29-jan-2020/353 
+5. Cotten, M., Watson, S. J., Zumla, A. I., Makhdoom, H. Q., Palser, A. L., Ong, S. H., Al Rabeeah, A. A., Alhakeem, R. F., Assiri, A., Al-Tawfiq, J. A., Albarrak, A., Barry, M., Shibl, A., Alrabiah, F. A., Hajjar, S., Balkhy, H. H., Flemban, H., Rambaut, A., Kellam, P., & Memish, Z. A. (2014). Spread, Circulation, and Evolution of the Middle East Respiratory Syndrome Coronavirus. MBio, 5(1). https://doi.org/10.1128/mBio.01062-13
+\
+6. http://virological.org/t/phylodynamic-analysis-of-ncov-2019-genomes-29-jan-2020/353 
