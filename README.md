@@ -41,7 +41,7 @@ The evolutionary rate of the virus from 48 full genomes.
 | Constant Size Coalescent Model  | 1.15E<sup>-3</sup> \[0.574E<sup>-3</sup> - 1.79E<sup>-3</sup>\]  |
 | Exponential Growth Coalescent Model  | 1.NNE<sup>-3</sup> \[0.NNE<sup>-3</sup> - N.NNE<sup>-3</sup>\]  |
 
-\
+
 
 ###### estimated mutation rate for other coronaviruses
 | | nucleotide substitution site<sup>-1</sup> year<sup>-1</sup> x10<sup>-3</sup> \[95% CI\] | Source
@@ -51,6 +51,10 @@ The evolutionary rate of the virus from 48 full genomes.
 
 ### Sequence variation
 (add sequence variation)
+
+### Coronavirus relationship
+
+2019-nCoV is closely related to SARS-CoV, BM48-41 bat coronavirus lineage and ZXC21/ZC45 SARS-like bat coronavirus lineage. The novel virus has shown close relationship to Yunnan/RaTG13 bat coronavirus and this virus is suspected to be the nearest bat precursor. 
 
 ### S gene similarity 
 
