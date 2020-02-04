@@ -37,34 +37,6 @@ dev.off()
 
 
 
-# Root-to-tip regression
-
-folder = "../../"
-tfile = "tree/2019nCoV_013120.tre"
-tre <- read.tree(paste(folder,tfile,sep=''))
-
-dfile = "2019-nCoV/metaData/date_location_2019nCoV.txt"
-date_df <- read.csv(paste(folder,dfile,sep=''),sep='\t',na.strings = "")
-
-name <- date_df[,"Name"]
-date <- date_df[,"date"]
-
-ndate = c()
-
-for (i in 1:length(date)){
-  d <- mdy(date[i])
-  numdate <- decimal_date(d)
-  ndate <- append(ndate, numdate)
-}
-sts
-sts <- setNames(ndate,name)
-
-td <- dater(tre, sts=sts, abstol = 1e-04, searchRoot = 100, s=29910, clock='strict', numStartConditions = 1)
-
-fit = rootToTipRegressionPlot(td)
-
-summary(fit)
-
 # Root-to-tip regression: data from Tempest
 
 folder = "../../"
@@ -84,3 +56,39 @@ png("2019-nCov_020320_root_to_tip.png",res=100,width=600,height=600)
 print(r2t)
 dev.off()
 
+
+######
+#Unused code
+######
+#Unused code
+######
+#Unused code
+######
+
+# Root-to-tip regression with treedater
+
+#folder = "../../"
+#tfile = "tree/2019nCoV_013120.tre"
+#tre <- read.tree(paste(folder,tfile,sep=''))
+
+#dfile = "2019-nCoV/metaData/date_location_2019nCoV.txt"
+#date_df <- read.csv(paste(folder,dfile,sep=''),sep='\t',na.strings = "")
+
+#name <- date_df[,"Name"]
+#date <- date_df[,"date"]
+
+#ndate = c()
+
+#for (i in 1:length(date)){
+#  d <- mdy(date[i])
+#  numdate <- decimal_date(d)
+#  ndate <- append(ndate, numdate)
+#}
+#sts
+#sts <- setNames(ndate,name)
+
+#td <- dater(tre, sts=sts, abstol = 1e-04, searchRoot = 100, s=29910, clock='strict', numStartConditions = 1)
+
+#fit = rootToTipRegressionPlot(td)
+
+#summary(fit)
