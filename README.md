@@ -58,7 +58,7 @@ The evolutionary rate of the virus from 48 full genomes.
 
 <img src="tree/CoV_relationship.png" width = 300> 
 
-### S gene similarity
+### S protein similarity
 
 pblast similarity among 2019nCoV-SARS cluster + MERS. Representative genome was used for 2019-nCoV (Wuhan-Hu-1), SARS (Tor2), and MERS (EMC).
 
@@ -84,12 +84,13 @@ Substantial sequencing error caused the distance EPI_ISL_406592. See discussion 
 | ------------- | ------------- |
 | Wuhan  | 18  |
 | Guanggdong  | 8 |
-| Shenzhen  | 4  |
+| Shenzhen  | 2  |
 | Foshan  | 3 |
-| Zhejiang  | 2  |
+| Zhejiang  | 3  |
 | California  | 2 |
 | France  | 2  |
 | Nonthanburi  | 2 |
+| England  | 2 |
 | Arizona  | 1  |
 | Guangzhou  | 1 |
 | Illinois  | 1  |
@@ -97,7 +98,9 @@ Substantial sequencing error caused the distance EPI_ISL_406592. See discussion 
 | Washington  | 1 |
 | Germany  | 1 |
 | Australia  | 1 |
-| Total | 48 |
+| Singapore  | 1 |
+| Finland  | 1 |
+| Total | 51 |
 
 ### Reference
 1. Stamatakis, A. (2014). RAxML version 8: A tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics (Oxford, England), 30(9), 1312–1313. https://doi.org/10.1093/bioinformatics/btu033
