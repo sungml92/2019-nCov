@@ -71,7 +71,6 @@ pblast similarity among 2019nCoV-SARS cluster + MERS. Representative genome was 
 | BM48-31  | 71.66  | 86.87 |
 | MERS  | 35.1 | 42.28 |
 
-
 ### Note
 
 As pointed out by \[6\], tMRCA and mean rate is an estimate for sampled population that only span about an year. Especially for tMRCA, only its range can be used as a guide to estimate common sampled ancestor. 
@@ -114,3 +113,16 @@ Substantial sequencing error caused the distance EPI_ISL_406592. See discussion 
 5. Cotten, M., Watson, S. J., Zumla, A. I., Makhdoom, H. Q., Palser, A. L., Ong, S. H., Al Rabeeah, A. A., Alhakeem, R. F., Assiri, A., Al-Tawfiq, J. A., Albarrak, A., Barry, M., Shibl, A., Alrabiah, F. A., Hajjar, S., Balkhy, H. H., Flemban, H., Rambaut, A., Kellam, P., & Memish, Z. A. (2014). Spread, Circulation, and Evolution of the Middle East Respiratory Syndrome Coronavirus. MBio, 5(1). https://doi.org/10.1128/mBio.01062-13
 \
 6. http://virological.org/t/phylodynamic-analysis-of-ncov-2019-genomes-29-jan-2020/353 
+
+# Appendix
+
+### Pangolin coronavirus and 2019-nCoV
+
+corona virus was detected from metagemonics study of dead pangolin in 2019, and original poster suggests a great simarility between pangolin-CoV and 2019-nCoV .See discussion for this topic is in http://bit.ly/2SmlyYX.\
+
+###### Dotplot
+
+<img src="img/panCoV_wuCoV.png" width = 300>
+
+
+
