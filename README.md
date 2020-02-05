@@ -27,7 +27,7 @@ BEASTv.1.10.4 software was used to calculate a estimated date of the most recent
 |   | tMRCA \[95% HPD\] |
 | ------------- | ------------- |
 | Constant Size Coalescent Model  | 2019.894 \[2019.812-2019.958\]  |
-| Exponential Growth Coalescent Model  | 2019.NNN \[2019.NNN-2019.NNN\]  |
+| Exponential Growth Coalescent Model  | 2019.881 \[2019.789-2019.971\]  |
 
 
 ### Evolutionary analysis
@@ -39,7 +39,7 @@ The evolutionary rate of the virus from 48 full genomes.
 |   | mean rate year<sup>-1</sup> nucleotide<sup>-1</sup> \[95% HPD\] |
 | ------------- | ------------- |
 | Constant Size Coalescent Model  | 1.15E<sup>-3</sup> \[0.574E<sup>-3</sup> - 1.79E<sup>-3</sup>\]  |
-| Exponential Growth Coalescent Model  | 1.NNE<sup>-3</sup> \[0.NNE<sup>-3</sup> - N.NNE<sup>-3</sup>\]  |
+| Exponential Growth Coalescent Model  | 1.02E<sup>-3</sup> \[0.17E<sup>-3</sup> - 1.73E<sup>-3</sup>\]  |
 
 
 
