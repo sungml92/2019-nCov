@@ -9,7 +9,7 @@ library(ggthemes)
 # Maximum likelihood phylogenetic tree visualization with ggtree
 
 folder = "../../"
-tfile = "tree/RAxML_bestTree_tempest.2019nCoV_020320.tre"
+tfile = "tree/RAxML_bestTree_tempest.2019nCoV_020720_aln.tre"
 
 tree <- read.tree(paste(folder,tfile,sep=''))
 lfile = "2019-nCoV/metaData/date_location_2019nCoV.txt"
@@ -19,28 +19,14 @@ tip_location <- read.csv(paste(folder,lfile,sep=''),sep='\t',na.strings = "")
 t <- ggtree(tree)# + geom_tiplab(size=3) 
 t <- t %<+% tip_location + geom_tippoint(aes(color=Location), size=4) + theme(legend.position="top")
 t
-png("2019-nCoV_020320_tempest.png",res=100,width=600,height=900)
+png("2019-nCoV_020720_tempest.png",res=100,width=600,height=900)
 print(t)
 dev.off()
-
-# Bayesian temporal phylogenetic tree visualization with ggtree
-
-bfile = "beast/2019nCov_013120_hkyr4_cons.tre"
-btree <- read.beast(paste(folder,bfile,sep=''))
-b <- ggtree(btree)
-b <- b %<+% tip_location + geom_tippoint(aes(color=Location), size=4) + theme(legend.position="top")
-b
-
-png("2019-nCov_013120_hkyr4_cons.png",res=100,width=600,height=900)
-print(b)
-dev.off()
-
-
 
 # Root-to-tip regression: data from Tempest
 
 folder = "../../"
-tempfile = "tree/2019nCoV_020320_tempest_data.txt"
+tempfile = "tree/2019nCoV_020720_tempest_data.txt"
 df <- read.csv(paste(folder,tempfile,sep=''),sep='\t',na.strings = "")
 
 r2t <- df %>% 
@@ -52,7 +38,7 @@ r2t <- df %>%
   scale_y_continuous(limits =c(-0.00000,0.0004)) +
   theme(legend.position = "none", panel.border = element_rect(colour = "black", fill=NA, size=1))
 r2t
-png("2019-nCov_020320_root_to_tip.png",res=100,width=600,height=600)
+png("2019-nCov_020720_root_to_tip.png",res=100,width=600,height=600)
 print(r2t)
 dev.off()
 
