@@ -17,7 +17,7 @@ Maximum likelihood (ML) phylogenetic tree was estimated wih RaxML v8.2.8 \[1\] a
 
 ML tree            |  root-to-tip
 :-------------------------:|:-------------------------:
-<img src="tree/2019-nCoV_020320_tempest.png" width = 300>  |  <img src="tree/2019-nCov_020320_root_to_tip.png" width = 300>
+<img src="tree/2019-nCoV_020720_tempest.png" width = 300>  |  <img src="tree/2019-nCov_020720_root_to_tip.png" width = 300>
 
 
 ### Divergence timing
@@ -26,8 +26,8 @@ BEASTv.1.10.4 software was used to calculate a estimated date of the most recent
 
 |   | tMRCA \[95% HPD\] |
 | ------------- | ------------- |
-| Constant Size Coalescent Model  | 2019.894 \[2019.812-2019.958\]  |
-| Exponential Growth Coalescent Model  | 2019.881 \[2019.789-2019.971\]  |
+| Constant Size Coalescent Model  | 2019.889 \[2019.809-2019.954\]  |
+| Exponential Growth Coalescent Model  | 2019.882 \[2019.79-2019.952\]  |
 
 
 ### Evolutionary analysis
@@ -38,8 +38,8 @@ The evolutionary rate of the virus from 48 full genomes.
 
 |   | mean rate year<sup>-1</sup> nucleotide<sup>-1</sup> \[95% HPD\] |
 | ------------- | ------------- |
-| Constant Size Coalescent Model  | 1.15E<sup>-3</sup> \[0.574E<sup>-3</sup> - 1.79E<sup>-3</sup>\]  |
-| Exponential Growth Coalescent Model  | 1.02E<sup>-3</sup> \[0.17E<sup>-3</sup> - 1.73E<sup>-3</sup>\]  |
+| Constant Size Coalescent Model  | 1.12E<sup>-3</sup> \[0.608E<sup>-3</sup> - 1.68E<sup>-3</sup>\]  |
+| Exponential Growth Coalescent Model  | 1.06E<sup>-3</sup> \[0.536E<sup>-3</sup> - 1.67E<sup>-3</sup>\]  |
 
 
 
