@@ -4,6 +4,12 @@ Update: Feb-03-2019 | added England, Finland, Singapore, Zhejiang and Genbank ge
 old Update: Jan-31-2019 | added Australian and German genome\
 Jan-30-2019\
 @sungml92 // sl74@rice.edu\
+
+
+### 2019-nCoV outbreak to-date
+ 
+[2019-nCoV worldwide distribution](map/2019-nCoV_map_JHUCSSEdata_02072020.html)
+
 \
 Preliminary Phylogenetic and evolutionary analysis of 2019 nCoV genomes.\
 \
@@ -77,16 +83,19 @@ As pointed out by \[6\], tMRCA and mean rate is an estimate for sampled populati
 
 Substantial sequencing error caused the distance EPI_ISL_406592. See discussion on Virological, https://bit.ly/386ZLuI.
 
-### Sampling location of 48 nCoV genomes
+### Sampling location of 69 nCoV genomes
 
 | Location | Count |
 | ------------- | ------------- |
-| Wuhan  | 18  |
+| Wuhan  | 20  |
 | Guanggdong  | 8 |
-| Shenzhen  | 2  |
+| California  | 5 |
+| Australia  | 4 |
+| Shenzhen  | 4  |
+| Washington  | 3 |
 | Foshan  | 3 |
 | Zhejiang  | 3  |
-| California  | 2 |
+| Singapore  | 3 |
 | France  | 2  |
 | Nonthanburi  | 2 |
 | England  | 2 |
@@ -94,12 +103,13 @@ Substantial sequencing error caused the distance EPI_ISL_406592. See discussion 
 | Guangzhou  | 1 |
 | Illinois  | 1  |
 | Taiwan  | 1 |
-| Washington  | 1 |
 | Germany  | 1 |
-| Australia  | 1 |
-| Singapore  | 1 |
 | Finland  | 1 |
-| Total | 51 |
+| Korea  | 1 |
+| Japan  | 1 |
+| Hangzhou  | 1 |
+| Belgium  | 1 |
+| Total | 69 |
 
 ### Reference
 1. Stamatakis, A. (2014). RAxML version 8: A tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics (Oxford, England), 30(9), 1312–1313. https://doi.org/10.1093/bioinformatics/btu033
