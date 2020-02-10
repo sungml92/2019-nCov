@@ -5,11 +5,6 @@ old Update: Jan-31-2019 | added Australian and German genome\
 Jan-30-2019\
 @sungml92 // sl74@rice.edu\
 
-
-### 2019-nCoV outbreak to-date
- 
-[2019-nCoV worldwide distribution](map/2019-nCoV_map_JHUCSSEdata_02072020.html)
-
 \
 Preliminary Phylogenetic and evolutionary analysis of 2019 nCoV genomes.\
 \
@@ -125,6 +120,10 @@ Substantial sequencing error caused the distance EPI_ISL_406592. See discussion 
 6. http://virological.org/t/phylodynamic-analysis-of-ncov-2019-genomes-29-jan-2020/353 
 
 # Appendix
+
+### 2019-nCoV outbreak to-date
+ 
+[2019-nCoV worldwide distribution](map/2019-nCoV_map_JHUCSSEdata_02072020.html)
 
 ### Pangolin coronavirus and 2019-nCoV
 
